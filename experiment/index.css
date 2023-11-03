@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    cursor: default;
+}
+
+a, a:visited {
+    color: white;
+}
+
+p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 4px;
+}
+
+.fileTitle {
+    margin-bottom: 10px;
+}
+
+.warning {
+    margin-bottom: 12px;
+}
+
+.preview {
+    padding-top: 10px;
+}
+
+.upload {
+    text-align: center;
+    margin-top: 2rem;
+    border: 5px solid white;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 210px;
+    padding: 40px;
+    padding-top: 5px;
+}
+
+input[type="file"] {
+    padding-left: 50px;
+}
+
+input[type="file"]::file-selector-button {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="file"]::file-selector-button:hover {
+    cursor: pointer;
+}
