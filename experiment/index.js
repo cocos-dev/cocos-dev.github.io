@@ -1,7 +1,9 @@
 const input = document.getElementById('uploadAudio')
-let preview = document.getElementsByClassName('preview')
+let preview = document.getElementsByClassName('preview')[0]
 
-function update() {
-    preview.innerHTML = "yes"
-    console.log(preview.innerHTML)
+function validate() {
+    if (input.value === "") {
+        preview.style.color = "red"
+        preview.innerHTML = "Select a file and try again!"
+    } 
 }

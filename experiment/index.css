@@ -32,6 +32,23 @@ h1, h2, h3 {
     padding-top: 10px;
 }
 
+.submit {
+    border: 2px solid white;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition-duration: 0.5s;
+}
+
+.submit:hover {
+    transition-duration: 0.5s;
+    border: 2px dashed white;
+    border-radius: 15px;
+}
+
 .upload {
     text-align: center;
     margin-top: 2rem;
@@ -46,6 +63,7 @@ h1, h2, h3 {
 }
 
 input[type="file"] {
+    transition-duration: 0.5s;
     padding-left: 50px;
 }
 
@@ -60,4 +78,7 @@ input[type="file"]::file-selector-button {
 
 input[type="file"]::file-selector-button:hover {
     cursor: pointer;
+    transition-duration: 0.5s;
+    border: 2px dashed white;
+    border-radius: 15px;
 }
